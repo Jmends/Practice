@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.password-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.password-table th,
+.password-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.password-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.password-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.password-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.toggle-password {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #4CAF50;
+}
+
+.toggle-password:hover {
+    color: #333;
+}

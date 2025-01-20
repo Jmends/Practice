@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Password Manager</h1>
+    <table class="password-table">
+        <thead>
+            <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>example.com</td>
+                <td>user123</td>
+                <td class="password-cell" data-password="examplePass123">********</td>
+                <td><button class="toggle-password">👁️</button></td>
+            </tr>
+            <tr>
+                <td>mybank.com</td>
+                <td>bankuser</td>
+                <td class="password-cell" data-password="secureBank456">********</td>
+                <td><button class="toggle-password">👁️</button></td>
+            </tr>
+            <tr>
+                <td>socialmedia.com</td>
+                <td>socialuser</td>
+                <td class="password-cell" data-password="socialPass789">********</td>
+                <td><button class="toggle-password">👁️</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
